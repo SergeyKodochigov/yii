@@ -1,0 +1,216 @@
+html,
+body {
+    height: 100%;
+    background-color: #49b0ff;
+
+}
+h1 {
+    color: #fff!important;
+}
+
+.lead {
+    color: #fff!important;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background: #ffffff;
+    padding-top: 20px;
+}
+
+.gk_footer{
+    color: #000;
+    padding: 5px;
+    transition: 0.3s;
+}
+.gk_footer:hover {
+    cursor: pointer;
+    margin-top: -6px;
+    background: #2d5dfc;
+    transition: 0.3s;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.navbar-inverse {
+    box-shadow: 0px 0px 10px 6px #1b1b1b24;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #49b0ff;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #49b0ff;
+    transition:0.3s;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #252525;
+    background: transparent;
+    transition: 0.3s;
+}
+.navbar-inverse .navbar-brand {
+    color: #49b0fd;
+    font-size: 24px;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #245c86;
+}
+.navbar-fixed-top {
+    border-width: 0 0 0px;
+}
+
+
+
+.button_quick {
+    background: #ffffff;
+    color: #323232;
+    min-width: 130px;
+    min-height: 40px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button_quick:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #0365a6;
+    transition: 0.3s;
+}
+
+.quick.logout {
+    
+    background: none;
+    color: #000;
+}
+
+.qk_flex {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+
+.news {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.news .news_label {
+    font-size: 20px;
+}
+
+.news .news_content {
+    font-weight: 100;
+}
